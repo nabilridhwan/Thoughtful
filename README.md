@@ -1,16 +1,32 @@
-# test_flutter_mobile_project
+<div align="center">
+<img src="./assets/icon/play_store_512.png" width="100" style="" alt="Thoughtful Logo">
 
-A new Flutter project.
+<h1>Thoughtful</h1>
 
-## Getting Started
+<p>
+A gratitude-focused mobile app that prompts users to reflect on and appreciate daily moments of positivity
+</p>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h3>
+<i>
+<b>
+This is an ongoing project. The app is currently in development and is not yet available on the Google Play Store.
+</b>
+</i>
+</h3>
+</div>
+
+
+## Features
+- Daily prompts to reflect on positive moments
+- Customizable prompts
+- Privacy-focused (no data is stored on the cloud, all data is stored locally on the device)
+
+## Technology Used
+- Flutter
+- Dart
+- Bloc State Management
+- SQLite Database
