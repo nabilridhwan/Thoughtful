@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
-import '../bloc/Item.dart';
 import '../bloc/ItemCubit.dart';
+import '../repository/Item.dart';
 
 class ItemCard extends StatelessWidget {
   Item item;

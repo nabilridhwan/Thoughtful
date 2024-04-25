@@ -6,9 +6,9 @@ import 'package:keyboard_attachable/keyboard_attachable.dart';
 import 'package:test_flutter_mobile_project/app_styles.dart';
 import 'package:uuid/uuid.dart';
 
-import '../bloc/Item.dart';
 import '../bloc/ItemCubit.dart';
 import '../components/prompt_card.dart';
+import '../repository/Item.dart';
 
 class CreatePage extends StatefulWidget {
   @override

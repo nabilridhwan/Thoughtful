@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:test_flutter_mobile_project/bloc/Item.dart';
+import 'package:test_flutter_mobile_project/repository/Item.dart';
 
 import '../DatabaseService.dart';
 

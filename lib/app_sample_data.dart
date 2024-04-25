@@ -1,6 +1,6 @@
 import 'package:uuid/uuid.dart';
 
-import 'bloc/Item.dart';
+import 'repository/Item.dart';
 
 List<Item?> items = [
   null,

@@ -2,7 +2,7 @@ import 'dart:developer';
 
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:test_flutter_mobile_project/bloc/Item.dart';
+import 'package:test_flutter_mobile_project/repository/Item.dart';
 
 class DatabaseService {
   static String _table = 'items';
