@@ -5,10 +5,15 @@ import '../app_colors.dart';
 import '../pages/create_page.dart';
 
 class CustomBottomNavigationBar extends StatelessWidget {
-  const CustomBottomNavigationBar({Key? key}) : super(key: key);
+
+  Function(int) onPressed;
+
+  CustomBottomNavigationBar({Key? key, required this.onPressed}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
+
     return SizedBox(
         height: 100,
         child: Stack(
@@ -31,20 +36,28 @@ class CustomBottomNavigationBar extends StatelessWidget {
                   children: [
                     IconButton(
                       icon: Icon(Icons.home),
-                      onPressed: () {},
+                      onPressed: () {
+                        onPressed(0);
+                      },
                     ),
                     IconButton(
                       icon: Icon(Icons.calendar_month),
-                      onPressed: () => {},
+                      onPressed: () {
+                        onPressed(1);
+                      },
                     ),
                     const SizedBox(width: 80),
                     IconButton(
                       icon: Icon(Icons.bar_chart),
-                      onPressed: () => {},
+                      onPressed: ()  {
+                        onPressed(2);
+                      },
                     ),
                     IconButton(
                       icon: Icon(Icons.settings),
-                      onPressed: () => {},
+                      onPressed: () {
+                        onPressed(3);
+                      },
                     ),
                   ],
                 ),
