@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:test_flutter_mobile_project/app_colors.dart';
 import 'package:test_flutter_mobile_project/app_styles.dart';
+import 'package:test_flutter_mobile_project/bloc/ProfileCubit.dart';
 import 'package:test_flutter_mobile_project/pages/create_page.dart';
 import 'package:test_flutter_mobile_project/pages/home.dart';
+import 'package:test_flutter_mobile_project/pages/settings.dart';
 
 import 'bloc/ItemCubit.dart';
 import 'bloc/SelectedDateCubit.dart';
@@ -24,6 +26,7 @@ class MyApp extends StatelessWidget {
               create: (context) =>
                   ItemCubit(DateTime.now())..loadItemsByDate()),
           BlocProvider(create: (context) => SelectedDateCubit(DateTime.now())),
+          BlocProvider(create: (context) => ProfileCubit()..getName()),
         ],
         child: MaterialApp(
           title: 'Thoughtful',
@@ -37,10 +40,11 @@ class MyApp extends StatelessWidget {
             useMaterial3: true,
           ),
           routes: {
-            '/home': (context) => const HomePage(),
+            '/home': (context) => const BasePage(),
             '/create': (context) => CreatePage(),
+            '/settings': (context) => const SettingsPage(),
           },
-          home: const HomePage(),
+          home: const BasePage(),
         ));
   }
 }
