@@ -1,0 +1,62 @@
+[
+  {
+    "prompt": "What small moment brought you joy today?",
+    "tags": ["joy", "moment", "gratitude"]
+  },
+  {
+    "prompt": "Who inspired or supported you today, and how?",
+    "tags": ["inspiration", "support", "gratitude"]
+  },
+  {
+    "prompt": "What is one thing about yourself you're grateful for?",
+    "tags": ["self", "gratitude"]
+  },
+  {
+    "prompt": "Reflect on a recent obstacle you overcame and what it taught you.",
+    "tags": ["obstacle", "reflection", "learning"]
+  },
+  {
+    "prompt": "Name a scent, sound, or sight that made you smile today.",
+    "tags": ["smile", "senses", "gratitude"]
+  },
+  {
+    "prompt": "What's something you often take for granted that you're thankful for today?",
+    "tags": ["appreciation", "gratitude"]
+  },
+  {
+    "prompt": "Share a memory from your past that you're grateful for.",
+    "tags": ["memory", "past", "gratitude"]
+  },
+  {
+    "prompt": "Who made you laugh or brightened your day today?",
+    "tags": ["laughter", "happiness", "gratitude"]
+  },
+  {
+    "prompt": "What's one thing you learned today that you appreciate?",
+    "tags": ["learning", "appreciation"]
+  },
+  {
+    "prompt": "Reflect on a simple pleasure you experienced today.",
+    "tags": ["pleasure", "reflection", "gratitude"]
+  },
+  {
+    "prompt": "What aspect of nature did you find beautiful today?",
+    "tags": ["nature", "beauty", "gratitude"]
+  },
+  {
+    "prompt": "Who made your life easier or better today, and how?",
+    "tags": ["help", "gratitude"]
+  },
+  {
+    "prompt": "Reflect on a possession you're grateful to have in your life.",
+    "tags": ["possession", "gratitude"]
+  },
+  {
+    "prompt": "What's one opportunity you had today that you're thankful for?",
+    "tags": ["opportunity", "gratitude"]
+  },
+  {
+    "prompt": "What's one thing you're looking forward to tomorrow?",
+    "tags": ["future", "anticipation"]
+  }
+]

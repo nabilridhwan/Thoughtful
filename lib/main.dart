@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:test_flutter_mobile_project/app_colors.dart';
 import 'package:test_flutter_mobile_project/app_styles.dart';
 import 'package:test_flutter_mobile_project/bloc/ProfileCubit.dart';
+import 'package:test_flutter_mobile_project/bloc/PromptsCubit.dart';
 import 'package:test_flutter_mobile_project/pages/create_page.dart';
 import 'package:test_flutter_mobile_project/pages/home.dart';
 import 'package:test_flutter_mobile_project/pages/settings.dart';
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
                   ItemCubit(DateTime.now())..loadItemsByDate()),
           BlocProvider(create: (context) => SelectedDateCubit(DateTime.now())),
           BlocProvider(create: (context) => ProfileCubit()..getName()),
+          BlocProvider(create: (context) => PromptsCubit()..getAllPrompts()),
         ],
         child: MaterialApp(
           title: 'Thoughtful',

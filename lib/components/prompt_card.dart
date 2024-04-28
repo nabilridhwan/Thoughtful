@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:test_flutter_mobile_project/app_colors.dart';
 import 'package:test_flutter_mobile_project/app_styles.dart';
 
+import '../repository/Prompt.dart';
+
 class PromptCard extends StatelessWidget {
-  final String prompt;
-  final Function(String prompt) onPromptSelected;
+  final Prompt prompt;
+  final Function(Prompt prompt) onPromptSelected;
 
   const PromptCard(
       {super.key, required this.prompt, required this.onPromptSelected});
@@ -26,7 +28,7 @@ class PromptCard extends StatelessWidget {
       child: ListTile(
         titleAlignment: ListTileTitleAlignment.center,
         title: Text(
-          prompt,
+          prompt.prompt,
           style: const TextStyle(color: AppColors.gradient1),
         ),
         onTap: () {
